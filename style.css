@@ -1,0 +1,271 @@
+body{
+  font-family: 'Abel';
+  font-size: 13px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.Title h1{
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+  color: #AAAAAA
+}
+
+h1{
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+
+}
+
+header{
+  height: 500px;
+  background-color: #D50000;
+  background-image: url(images/firstview.jpg)
+}
+
+footer{
+  height: 80px;
+  padding-top: 30px;
+  text-align: center;
+  background-color: #950000;
+  border-top: 2px solid #AAA;
+}
+
+nav{
+  width: 100%;
+  background-color: #424558;
+}
+
+nav ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li{
+  list-style-type: none;
+  float: left;
+}
+
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 30px;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 15px
+}
+
+.table{
+  display: table;
+  margin: 0 auto;
+}
+
+.menu-ind:hover, .present{
+  border-top: 5px solid #950000;
+  background-color: RGBa(170, 000, 000, 0.15);
+}
+
+.menu-more:hover{
+  border-top: 5px solid #404040;
+  background-color: RGBa(170, 170, 170, 0.15);
+}
+
+.menu-cont:hover,.objectif{
+  border-top: 5px solid #000095;
+  background-color: rgba(000,000, 170, 0.15);
+}
+
+nav li:hover a{
+  padding: 15px 30px 20px 30px;
+}
+
+.menu-reg:hover{
+  border-top: 5px solid #009955;
+  background-color: RGBa(0, 170, 0, 0.15);
+}
+
+section{
+  width: 100%;
+  min-height: 300px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.sec{
+  margin: 0px, 10%;
+  text-align: center;
+  font-size: 15px;
+}
+
+.moi{
+  width: 200px;
+  height: 120px;
+}
+.moi img{
+  width : 100%;
+  height: auto;
+}
+
+.cv{
+  width: 250px;
+  height: 320px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.cv img{
+  width : 100%;
+  height: auto;
+}
+
+.left{
+  float: left;
+  width: 30%;
+}
+
+.right{
+  float: left;
+  width: 70%;
+}
+
+.cleft, .cright, .sousl, .sousr{
+  float: left;
+  width: 50%;
+}
+
+.sec::after, .exp::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pdf{
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.Trident{
+  border-top: 5px solid #AAA;
+  background-color: rgba(100,100,100,0.15);
+  margin-bottom: 0px;
+}
+
+.photo{
+  border-top: 5px solid #00D;
+  background-color: rgba(0,255,255 ,0.15);
+}
+.prog{
+  border-top: 5px solid #B30000;
+  background-color: rgba(255,91,92,0.15);
+}
+
+.violet{
+  border-top: 5px solid #9F00FF;
+  background-color: rgba(159,140,255,0.15)
+}
+
+.exemple{
+  border-top: 5px solid #FF7700;
+  background-color: rgba(255,212,0,0.15)
+}
+
+.etx{
+  text-align: center;
+}
+
+.lexp{
+  width : 45%;
+  float: left;
+}
+.rexp{
+  width : 50%;
+  float: left;
+  margin-left: 5%;
+}
+.lexp img{
+  width : 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+@media screen and (max-width: 780px){
+  header{
+    height: 50px;
+  }
+  h1{
+    font-size: 28px;
+    margin: 20px 0px 0px 0px;
+  }
+  nav li a{
+    font-size: 12px;
+    padding: 10px;
+  }
+  nav li:hover a{
+    padding: 5px 10px 10px 10px;
+  }
+}
+
+.login-page{
+  background-color: #000095;
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.form{
+  position: relative;
+  z-index: 1;
+  background-color: #000095;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+}
+
+.form input{
+  font-family: "Abel", sans-serif;
+  outline: 1;
+  background-color: #F2F2F2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button{
+  font-family: "Abel",sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background-color: #00CCFF;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFF;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form button:hover,.form button:active{
+  background: #0055FF
+}
+
+.form .message{
+  margin: 15px 0 0;
+  color: aliceblue;
+  font-size: 12px;
+}
+
+.form .message a{
+  color: #00CCFF;
+  text-decoration: none;
+}
+
+.form .register-form{
+  display: none;
+}

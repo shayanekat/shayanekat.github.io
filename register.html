@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Log in or Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header>
+        <div class="Title">
+          <h1>Shayane Katchera</h1>
+        </div>
+    </header>
+  
+      <nav>
+        <div class="table">
+          <ul>
+            <li class="menu-ind">
+              <a href="index.html">accueil</a>
+            </li>
+            <li class="menu-more">
+              <a href="more.html">plus sur moi</a>
+            </li>
+            <li class="menu-cont">
+              <a href="contact.html">contact</a>
+            </li>
+            <li class="menu-reg">
+                <a href="register.html">connexion</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+    <div class="login-page">
+        <div class="form">
+            <form class="register-form">
+                <input type="text" placeholder="Nom"/>
+                <input type="text" placeholder="Prénom"/>
+                <input type="text" placeholder="Why are you here ?"/>
+                <button>Create</button>
+                <p class="message">Déjà enregistré ? <a href="#">Log In</a></p>
+            </form>
+            <form class="login-form">
+                <input type="text" placeholder="Nom">
+                <button>Login</button>
+                <p class="message">Pas encre Enregistré ? <a href="#">Register</a></p>
+            </form>
+        </div>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+    $(".message a").click(function(){
+      $("form").animate({height: "toggle",opacity:"toggle"},"slow");
+    });
+  </script>
+  <footer>
+    <p>Copyright 2019 Shayane Katchera - Toute reproduction interdite</p>
+  </footer>
+</body>
+</html>
