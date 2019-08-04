@@ -74,13 +74,18 @@ nav a{
 }
 
 .menu-more:hover{
-  border-top: 5px solid #404040;
-  background-color: RGBa(170, 170, 170, 0.15);
+  border-top: 5px solid #04a9d3;
+  background-color: RGBa(000, 255, 255, 0.15);
 }
 
 .menu-cont:hover,.objectif{
   border-top: 5px solid #000095;
   background-color: rgba(000,000, 170, 0.15);
+}
+
+.menu-pro:hover{
+  border-top: 5px solid #007700;
+  background-color: rgba(000,255,000,0.15)
 }
 
 nav li:hover a{

@@ -1,0 +1,98 @@
+body{
+    position: relative;
+    font-family: 'Abel';
+    font-size: 13px;
+    
+  }
+  
+  .Title h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    color: #AAAAAA
+  }
+  
+  h1{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+  
+  }
+  
+  header{
+    height: 500px;
+    background-image: url(images/firstview.jpg)
+  }
+  
+  nav{
+    width: 100%;
+    background-color: #424558;
+  }
+  
+  
+  footer{
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    min-height: 80px;
+    /* padding-top: 100px; */
+    text-align: center;
+    border-top: 2px solid #AAA;
+    background-color: #950000;
+  }
+  
+  nav ul{
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  nav li{
+    list-style-type: none;
+    float: left;
+  }
+  
+  nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 15px
+  }
+  
+  .table{
+    display: table;
+    margin: 0 auto;
+  }
+  
+  .menu-ind:hover{
+    border-top: 5px solid #950000;
+    background-color: RGBa(170, 000, 000, 0.15);
+  }
+  
+  .menu-more:hover{
+    border-top: 5px solid #04a9d3;
+    background-color: RGBa(000, 255, 255, 0.15);
+  }
+  
+  .menu-cont:hover,.objectif{
+    border-top: 5px solid #000095;
+    background-color: rgba(000, 000, 170, 0.15);
+  }
+  
+  nav li:hover a{
+    padding: 15px 30px 20px 30px;
+  }
+  
+  .menu-reg:hover{
+    border-top: 5px solid #009955;
+    background-color: RGBa(0, 170, 0, 0.15);
+  }
+
+  .menu-pro:hover{
+    border-top: 5px solid #007700;
+    background-color: rgba(000,255,000,0.15)
+  }
