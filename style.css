@@ -157,16 +157,22 @@ section{
   margin-bottom: 0px;
 }
 
-.photo{
+.photo-fr{
   border-top: 5px solid #00D;
   background-color: rgba(0,255,255 ,0.15);
 }
-.prog, .present-en{
+
+.photo-en{
+  border-top: 5px solid #00AAEE;
+  background-color: rgba(0,0,255,0.15);
+}
+
+.prog-fr, .present-en{
   border-top: 5px solid #B30000;
   background-color: rgba(255,91,92,0.15);
 }
 
-.violet, .present-fr{
+.violet, .present-fr, .prog-en{
   border-top: 5px solid #9F00FF;
   background-color: rgba(159,140,255,0.15)
 }
