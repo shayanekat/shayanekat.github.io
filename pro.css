@@ -2,7 +2,8 @@ body{
     position: relative;
     font-family: 'Abel';
     font-size: 13px;
-    
+    align-items: center;
+    background-color: #DDD
   }
   
   .Title h1{
@@ -96,3 +97,24 @@ body{
     border-top: 5px solid #007700;
     background-color: rgba(000,255,000,0.15)
   }
+
+.image{
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+hr{
+  background-color: #BBBBBB;
+}
+
+.present-text{
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 1px 1px 1px black
+}
+  
