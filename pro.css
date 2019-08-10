@@ -3,7 +3,7 @@ body{
     font-family: 'Abel';
     font-size: 13px;
     align-items: center;
-    background-color: #DDD
+    background: linear-gradient(black,white)
   }
   
   .Title h1{
@@ -103,18 +103,44 @@ body{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
+  border-radius: 5px;
+}
+
+.image:hover{
+  box-shadow: 5px 5px 5px 5px grey;
 }
 
 hr{
   background-color: #BBBBBB;
 }
 
-.present-text{
+.present-text, .contact-pro{
+  padding-left: 5px; 
   width: 600px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 1px 1px 1px black
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.present-text:hover, .contact-pro:hover{
+  background-color: #333; 
+  color: white;
+}
+
+.contact-pro{
+  text-align: center;
+  font-size: 15px;
+}
+
+.fa-linkedin{
+  color:#000095;
+  background-color: white;
+}
+
+.fa-file-alt{
+  color: #F33
 }
   
