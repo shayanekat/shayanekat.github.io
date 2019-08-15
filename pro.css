@@ -98,7 +98,7 @@ body{
     background-color: rgba(000,255,000,0.15)
   }
 
-.image{
+.image, .tree{
   width: 600px;
   display: block;
   margin-left: auto;
@@ -106,7 +106,7 @@ body{
   border-radius: 5px;
 }
 
-.image:hover{
+.image:hover, .tree:hover{
   box-shadow: 5px 5px 5px 5px grey;
 }
 
@@ -135,7 +135,7 @@ hr{
   font-size: 15px;
 }
 
-.fa-linkedin{
+.fab{
   color:#000095;
   background-color: white;
 }
