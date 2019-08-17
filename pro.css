@@ -125,7 +125,7 @@ hr{
   border: 1px solid #000;
 }
 
-.present-text:hover, .contact-pro:hover{
+.present-text:hover, .contact-pro:hover, .competence:hover{
   background-color: #333; 
   color: white;
 }
@@ -144,3 +144,15 @@ hr{
   color: #F33
 }
   
+.competence{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 41%;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: white;
+  padding-right: 10px;
+  padding-left: 10px;
+}
