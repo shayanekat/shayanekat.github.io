@@ -125,6 +125,10 @@ hr{
   border: 1px solid #000;
 }
 
+.present-text{
+  text-align: center;
+}
+
 .present-text:hover, .contact-pro:hover, .competence:hover{
   background-color: #333; 
   color: white;
