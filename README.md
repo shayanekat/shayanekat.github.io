@@ -1,9 +1,7 @@
 # PERSONAL WEBISTE
 
-***Final Version***
+***WORK IN PROGRESS***
 
 Hi, this is an online Portfolio for future job as web devloper or other
 
-It is fully hardcoded in html and css
-
-if you want to run this, run the index.html file first.
+It is also used as a showcase for my photography instagram
