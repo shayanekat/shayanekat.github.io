@@ -2,6 +2,7 @@ body{
   position: relative;
   font-family: 'Abel';
   font-size: 13px;
+  background-color: #333;
   
 }
 
@@ -23,6 +24,37 @@ h1{
 header{
   height: 500px;
   background-image: url(images/firstview.jpg)
+}
+
+.header{
+  height: 500px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.header h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left{
+  position: absolute;
+  float: left;
+  width: 100%;
+  top: 0;
+  left: -25%;
+}
+
+.right{
+  position: absolute;
+  float: right;
+  width: 100%;
+  top: 0;
+  right: -25%;
 }
 
 nav{
