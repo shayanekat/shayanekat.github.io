@@ -1,4 +1,6 @@
 body{
+  padding: 0;
+  margin: 0;
   position: relative;
   font-family: 'Abel';
   font-size: 13px;
@@ -21,13 +23,7 @@ h1{
 
 }
 
-header{
-  height: 500px;
-  background-image: url(images/firstview.jpg)
-}
-
 .header{
-  height: 500px;
   position: absolute;
   text-align: center;
   color: white;
@@ -38,7 +34,7 @@ header{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 350%);
 }
 
 .left{
@@ -57,11 +53,26 @@ header{
   right: -25%;
 }
 
-nav{
-  width: 100%;
-  background-color: #424558;
+.body-content{
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 100%;
+  width: 80%;
+  background-color: black;
+  transform: translate(0, 375%);
 }
 
+.text{
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.8;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 footer{
   /* position: absolute; */
@@ -74,205 +85,4 @@ footer{
   text-align: center;
   border-top: 2px solid #AAA;
   background-color: #950000;
-}
-
-nav ul{
-  margin: 0px;
-  padding: 0px;
-}
-
-nav li{
-  list-style-type: none;
-  float: left;
-}
-
-nav a{
-  display: inline-block;
-  text-decoration: none;
-  padding: 20px 30px;
-  color: #FFF;
-  text-transform: uppercase;
-  font-size: 15px
-}
-
-.table{
-  display: table;
-  margin: 0 auto;
-}
-
-.menu-ind:hover{
-  border-top: 5px solid #950000;
-  background-color: RGBa(170, 000, 000, 0.15);
-}
-
-.menu-more:hover{
-  border-top: 5px solid #04a9d3;
-  background-color: RGBa(000, 255, 255, 0.15);
-}
-
-.menu-cont:hover,.objectif{
-  border-top: 5px solid #000095;
-  background-color: rgba(000,000, 170, 0.15);
-}
-
-.menu-pro:hover{
-  border-top: 5px solid #007700;
-  background-color: rgba(000,255,000,0.15)
-}
-
-nav li:hover a{
-  padding: 15px 30px 20px 30px;
-}
-
-.menu-reg:hover{
-  border-top: 5px solid #009955;
-  background-color: RGBa(0, 170, 0, 0.15);
-}
-
-section{
-  width: 100%;
-  min-height: 300px;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
-}
-
-.sec-fr, .sec-en, .sec{
-  /*margin: 0px, 10%;*/
-  text-align: center;
-  font-size: 15px;
-}
-
-.moi{
-  width: 200px;
-  height: 120px;
-}
-.moi img{
-  width : 100%;
-  height: auto;
-}
-
-.cv{
-  width: 250px;
-  height: 320px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
-}
-.cv img{
-  width : 100%;
-  height: auto;
-}
-
-.left{
-  width: 100%;
-  top: 0;
-}
-
-.right{
-  width: 100%;
-  top: 0;
-}
-
-.cleft, .cright, .sousl, .sousr{
-  float: left;
-  width: 50%;
-}
-
-.sec::after, .sec-fr::after, .sec-en::after, .exp::after{
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.pdf{
-  padding-top: 20px;
-  margin-top: 20px;
-}
-
-.Trident{
-  border-top: 5px solid #AAA;
-  background-color: rgba(100,100,100,0.15);
-  margin-bottom: 0px;
-}
-
-.photo-fr{
-  border-top: 5px solid #00D;
-  background-color: rgba(0,255,255 ,0.15);
-}
-
-.photo-en{
-  border-top: 5px solid #00AAEE;
-  background-color: rgba(0,0,255,0.15);
-}
-
-.prog-fr, .present-en{
-  border-top: 5px solid #B30000;
-  background-color: rgba(255,91,92,0.15);
-}
-
-.violet, .present-fr, .prog-en{
-  border-top: 5px solid #9F00FF;
-  background-color: rgba(159,140,255,0.15)
-}
-
-.exemple{
-  border-top: 5px solid #FF7700;
-  background-color: rgba(255,212,0,0.15)
-}
-
-.etx{
-  text-align: center;
-}
-
-.lexp{
-  width : 45%;
-  float: left;
-}
-.rexp{
-  width : 50%;
-  float: left;
-  margin-left: 5%;
-}
-.lexp img{
-  width : 100%;
-  max-width: 400px;
-  height: auto;
-}
-
-@media screen and (max-width: 780px){
-  header{
-    height: 50px;
-  }
-  h1{
-    font-size: 28px;
-    margin: 20px 0px 0px 0px;
-  }
-  nav li a{
-    font-size: 12px;
-    padding: 10px;
-  }
-  nav li:hover a{
-    padding: 5px 10px 10px 10px;
-  }
-}
-
-.content{
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  width: 100%;
-}
-
-.present-fr, .present-en{
-  float: left;
-  width: 100%;
-}
-
-.ctt{
-  width: 50px;
-  height: 50px;
-}
-
-.ctt:hover{
-  border: 2px solid blue;
 }
