@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ page.title }}</title>
+</head>
+<body>
+  <h1>{{ page.title }}</h1>
+  <p>{{ page.description }}</p>
+
+  <div class="gallery">
+    {% assign folder_path = page.folder | prepend: "/images/" %}
+    {% for file in site.static_files %}
+      {% if file.path contains folder_path %}
+        {% if file.extname == ".jpg" or file.extname == ".jpeg" or file.extname == ".png" or file.extname == ".gif" %}
+          <img src="{{ file.path }}" alt="{{ file.basename }}">
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</body>
+</html>
