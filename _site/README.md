@@ -1,21 +1,21 @@
-# PERSONAL WEBISTE
+# PERSONAL WEBSITE
 
 ## Introduction
 
-Ceci est mon site vitrine en tant que photographe amateur. L'objectif à terme est d'être invité pour a exposé dans des galeries/expo, invité dans des voyages, des expeditions scientifiques...
+Ceci est mon site vitrine en tant que photographe amateur. L'objectif, à terme, est d'être invité à exposer dans des galeries/expositions et à participer à des voyages, des expéditions scientifiques...
 
-Il y aura la page principale avec un lien vers mon insta animalier et mon insta photos autre.
+Il y aura la page principale avec un lien vers mon Instagram animalier et mon autre Instagram photo.
 
-Et je compte séparer en différentes galleries. Pour l'instant dans la nav bar, mais a terme, Si j'ai trop de galleries, faire un tableau ou un truc du genre
+Je compte aussi séparer le contenu en différentes galeries. Pour l'instant, ce sera dans la barre de navigation, mais à terme, si j'ai trop de galeries, je ferai un tableau ou un système du genre.
 
-## Galleries actuelles
+## Galeries actuelles
 
-Il y aura une dizaine de photo par gallerie,
-Une photo servira de presentation dans la page initiale
+Il y aura une dizaine de photos par galerie.
+Une photo servira de présentation sur la page initiale.
 
 1. animalier
 2. paysage
 3. photos de tournage
 4. astro
 5. spotting
-6. lancement c'space
+6. lancement C'Space
